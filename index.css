@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+}
+h1 {
+  font-size: 20px;
+}
+p {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.profile-card {
+  width: 25%;
+  max-width: 50%;
+  text-align: center;
+  background: #fff;
+  color: #333;
+  border-radius: 10px;
+}
+.cover-pic {
+  display: block;
+  width: 100%;
+  border-radius: 30px;
+  padding: 15px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
